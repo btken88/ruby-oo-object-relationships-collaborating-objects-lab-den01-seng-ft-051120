@@ -6,7 +6,7 @@ class MP3Importer
   end
 
   def files
-    songs_in_folder = Dir.children("#{self.path}")
+    songs_in_folder = Dir.children(self.path)
   end
 
   def import
